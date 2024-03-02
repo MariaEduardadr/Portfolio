@@ -8,6 +8,7 @@
   .about .about_left {
     max-width: 40rem;
     flex: 1;
+  
   }
   
   .about .about_left p {
@@ -25,13 +26,15 @@
   .about .about_left ul li a {
     display: inline-block;
     padding: 1rem;
+    
   }
   
   .about .about_right {
     flex: 1;
     max-width: 66rem;
+
   }
-  
+
   @media only screen and (max-width: 768px) {
     .about {
       flex-direction: column;
