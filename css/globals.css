@@ -13,6 +13,7 @@
   body {
     font-size: 1.6rem;
     margin-top: 15rem;
+    background: radial-gradient(circle, rgb(7, 1, 12) 0%, rgb(32, 2, 53) 100%);
   }
   
   ul {
@@ -48,6 +49,7 @@
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 3.5rem;
+    color: var(--gray);
   }
   
   p:not(:last-of-type),

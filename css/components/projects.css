@@ -45,13 +45,7 @@
   }
 
 
-  .projects ul li .image img{
-    transition: all 300ms ease-in-out;
-  }
-  .projects ul li .image img:hover {
-    transform: translate(-3%, -3%) scale(1.2) rotate(5deg);
-  }
-  
+
   @media only screen and (max-width: 768px) {
     .projects ul li,
     .projects ul li.projects__reversed-list {

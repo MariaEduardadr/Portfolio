@@ -4,7 +4,7 @@
     left: 0;
     width: 100%;
     z-index: 10;
-    background-color: var(--white);
+    background: radial-gradient(circle, rgba(23, 1, 41, 1) 0%, rgba(13, 0, 22, 1) 100%);
 }
 
 .navbar .navbar_content{
@@ -23,6 +23,7 @@
  .navbar .navbar_content .navbar_links a{
     padding: 1rem;
     display: inline-block;
+    color: var(--white);
  }
  .navbar .navbar_content .navbar_links a:hover {
  color: var(--mediumpurple-color);
@@ -52,12 +53,14 @@
       width: 3.6rem;
       height: 3.6rem;
       cursor: pointer;
+      background-color: var(--white);
     }
   
     .navbar .navbar_content .navbar_mobile.active .mobile_links {
       display: flex;
       flex-direction: column;
-      background-color: var(--white);
+      background: radial-gradient(circle, rgba(23, 1, 41, 1) 0%, rgba(13, 0, 22, 1) 100%);
+      color: var(--white);
       width: 100%;
       position: absolute;
       top: 98%;
