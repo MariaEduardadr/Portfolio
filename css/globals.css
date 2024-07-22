@@ -13,7 +13,7 @@
   body {
     font-size: 1.6rem;
     margin-top: 15rem;
-    background: radial-gradient(circle, rgb(7, 1, 12) 0%, rgb(32, 2, 53) 100%);
+    background: rgb(7, 1, 12) 0%;
   }
   
   ul {

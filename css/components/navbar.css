@@ -53,7 +53,7 @@
       width: 3.6rem;
       height: 3.6rem;
       cursor: pointer;
-      background-color: var(--white);
+      background-color: var(--indigo-color);
     }
   
     .navbar .navbar_content .navbar_mobile.active .mobile_links {
