@@ -80,3 +80,28 @@
       text-align: center;
     }
   }
+
+/* multLinguagem */
+  .navbar .navbar_content .navbar_links .linguagem{
+    position: relative;
+    width: 120px;
+    margin-left: 40px;
+    font-weight: bold;
+  }
+
+  .navbar .navbar_content .navbar_links .linguagem .selecionar-linguagem{
+    display: flex;   
+    align-items: center;
+    color: var(--white);
+    cursor: pointer;
+  }
+  .selecionar-linguagem:before{
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+  }
+ 
