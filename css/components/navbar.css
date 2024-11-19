@@ -81,27 +81,69 @@
     }
   }
 
-/* multLinguagem */
-  .navbar .navbar_content .navbar_links .linguagem{
-    position: relative;
-    width: 120px;
-    margin-left: 40px;
-    font-weight: bold;
-  }
 
-  .navbar .navbar_content .navbar_links .linguagem .selecionar-linguagem{
-    display: flex;   
-    align-items: center;
-    color: var(--white);
-    cursor: pointer;
+ /* switch */
+
+:root{
+  --switch-bg-url: url(/css/assets/moon-stars.svg);
+} 
+#switch {
+  position: relative;
+  width: 64px;
+
+  margin: 4px auto;
+}
+
+#switch button {
+  width: 32px;
+  height: 32px;
+  background: white var(--switch-bg-url)  no-repeat center;
+  border: 0;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 1;
+  transform: translateY(-50%);
+
+  animation: slide-back 0.2s;
+}
+
+.light #switch button {
+  animation: slide-in 0.2s forwards;
+}
+
+#switch button:hover {
+  outline: 8px solid var(--highlight-color);
+}
+
+#switch span {
+  display: block;
+  width: 64px;
+  height: 24px;
+  background: var(--surface-color);
+  border: 1px solid var(--stroke-color);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 9999px;
+}
+
+/*mudar cor*/
+.light .navbar {
+  background: var(--gray);
+ }
+
+ .light .navbar .navbar_content .navbar_links a{
+  color: var(--black);
+ }
+
+ .light  .navbar .navbar_content .navbar_links a:hover {
+  color: var(--mediumpurple-color);
+  
   }
-  .selecionar-linguagem:before{
-    content: '';
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-right: 10px;
-  }
+ .light .navbar .navbar_content .navbar_mobile.active .mobile_links {
+  background: var(--gray);
+  color: var(--black);
+ }
  

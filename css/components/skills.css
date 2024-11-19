@@ -37,3 +37,8 @@
     margin: 2rem 0 1rem;
   }
 
+
+/* mudar cor */
+.light .skills {
+  background: var(--gray);
+ }
