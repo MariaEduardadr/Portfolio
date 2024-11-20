@@ -9,8 +9,11 @@
     --light-tertiary-color: #f3f6fb;
     --text-color: #343d48;
     --black:#000000;
-
-    --highlight-color: rgba(255, 255, 255, 0.2);
-    --stroke-color: rgba(255, 255, 255, 0.5);
     --font-family: 'Poppins', sans-serif;
+
+/*Mudar cor*/
+  --highlight-color: rgba(255, 255, 255, 0.2);
+  --stroke-color: rgba(255, 255, 255, 0.5);
+  --surface-color: rgba(0, 0, 0, 0.05);
+  --switch-bg-url: url(/css/assets/sun.svg);
   }
