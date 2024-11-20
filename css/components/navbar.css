@@ -84,10 +84,6 @@
 
  /* switch */
  
- #switch button .light{
-   --switch-bg-url: url(../assets/moon-stars.svg);
-}
-
 #switch {
   position: relative;
   width: 64px;

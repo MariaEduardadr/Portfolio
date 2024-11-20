@@ -17,3 +17,6 @@
   --surface-color: rgba(0, 0, 0, 0.05);
   --switch-bg-url: url(../assets/sun.svg);
   }
+  #switch button .light{
+    --switch-bg-url: url(../assets/moon-stars.svg);
+ }
