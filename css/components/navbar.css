@@ -84,10 +84,10 @@
 
  /* switch */
  :root {
-  --switch-bg-url: url('/css/assets/sun.svg');
+  --switch-bg-url: url('/css/assets/img/sun.svg');
 }
  #switch button .light{
-   --switch-bg-url: url('/css/assets/moon-stars.svg');
+   --switch-bg-url: url('/css/assets/img/moon-stars.svg');
 }
 
 #switch {
