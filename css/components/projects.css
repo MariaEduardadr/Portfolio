@@ -29,6 +29,7 @@
     min-width: 40rem;
     max-width: 47rem;
     height: auto;
+    border-radius: 15px;
   }
   
   .projects ul li .projects__info {
@@ -43,8 +44,6 @@
     font-weight: 500;
   
   }
-
-
 
   @media only screen and (max-width: 768px) {
     .projects ul li,
